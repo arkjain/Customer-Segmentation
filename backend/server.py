@@ -115,7 +115,7 @@ async def get_ai_insights(segment_data: Dict[str, Any]) -> List[str]:
         - Label: {segment_data.get('label', 'Unknown')}
         - Customer Count: {segment_data.get('customer_count', 0)} customers
         - Average Age: {segment_data.get('avg_age', 0):.1f} years
-        - Average Annual Income: ${segment_data.get('avg_income', 0):,.0f}
+        - Average Annual Income: ₹{segment_data.get('avg_income', 0):,.0f}
         - Average Spending Score: {segment_data.get('avg_spending', 0):.1f}/100
         
         Focus on:
