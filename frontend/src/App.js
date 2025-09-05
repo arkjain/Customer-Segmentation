@@ -176,7 +176,7 @@ const Dashboard = () => {
                       {customers.slice(0, 10).map((customer, idx) => (
                         <tr key={idx} className="border-b">
                           <td className="px-4 py-2">{customer.age}</td>
-                          <td className="px-4 py-2">${customer.annual_income?.toLocaleString()}</td>
+                          <td className="px-4 py-2">₹{customer.annual_income?.toLocaleString()}</td>
                           <td className="px-4 py-2">{customer.spending_score}</td>
                           <td className="px-4 py-2">{customer.gender}</td>
                           <td className="px-4 py-2">
