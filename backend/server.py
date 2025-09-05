@@ -166,9 +166,9 @@ def generate_sample_data() -> pd.DataFrame:
     ages = np.random.normal(35, 12, n_customers)
     ages = np.clip(ages, 18, 70)
     
-    # Generate income data (correlated with age)
-    base_income = 30000 + (ages - 18) * 1000 + np.random.normal(0, 15000, n_customers)
-    annual_income = np.clip(base_income, 15000, 137000)
+    # Generate income data (correlated with age) - in Indian Rupees
+    base_income = 300000 + (ages - 18) * 80000 + np.random.normal(0, 1200000, n_customers)
+    annual_income = np.clip(base_income, 150000, 10000000)
     
     # Generate spending scores (influenced by income and age)
     income_factor = (annual_income - annual_income.min()) / (annual_income.max() - annual_income.min())
