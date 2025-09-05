@@ -23,3 +23,7 @@ numpy>=1.26.0
 python-multipart>=0.0.9
 jq>=1.6.0
 typer>=0.9.0
+scikit-learn==1.7.1
+pandas==2.3.2
+numpy==2.3.2
+emergentintegrations==0.1.0
