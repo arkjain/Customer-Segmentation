@@ -353,7 +353,7 @@ const Dashboard = () => {
                     </div>
                     <div className="text-center">
                       <p className="text-2xl font-bold text-purple-600">
-                        ${segment.avg_income.toLocaleString(undefined, {maximumFractionDigits: 0})}
+                        ₹{segment.avg_income.toLocaleString(undefined, {maximumFractionDigits: 0})}
                       </p>
                       <p className="text-sm text-gray-500">Avg Income</p>
                     </div>
