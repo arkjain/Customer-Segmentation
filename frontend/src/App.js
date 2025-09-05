@@ -147,7 +147,7 @@ const Dashboard = () => {
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <h3 className="text-lg font-semibold text-gray-800">Average Income</h3>
                   <p className="text-3xl font-bold text-purple-600">
-                    ${stats.income_stats?.mean?.toLocaleString(undefined, {maximumFractionDigits: 0})}
+                    ₹{stats.income_stats?.mean?.toLocaleString(undefined, {maximumFractionDigits: 0})}
                   </p>
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-6">
